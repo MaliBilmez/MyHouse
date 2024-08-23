@@ -98,5 +98,16 @@ ul li a{
 .content p{
   margin: 20px auto;
   font-size: 20px;
+}
 
+button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  border: 2px solid red;
+  background: transparent;
+  color: bisque;
+  cursor: pointer;
 }
