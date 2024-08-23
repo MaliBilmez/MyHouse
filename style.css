@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap");
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(https://bodaq.com/wp-content/uploads/2023/05/Bodaq-blog-post-pics-2-1-1.jpg);
+}
+
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  list-style-type: none;
+}
+
+
+#house {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+div a{
+  right: 10;
+  margin-left: 10px;
+}
