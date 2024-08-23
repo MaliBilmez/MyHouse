@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* border: 2px solid red */
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap");
@@ -12,22 +13,74 @@
   background-image: url(https://bodaq.com/wp-content/uploads/2023/05/Bodaq-blog-post-pics-2-1-1.jpg);
 }
 
-.navbar{
+.navbar {
   width: 85%;
   margin: auto;
   padding: 35px 0;
-  list-style-type: none;
+  /* left: 100px; */
+  position: relative;
 }
 
-
-#house {
+.navbar h1 {
+  width: 200px;
+  cursor: pointer;
   font-family: "Bungee Tint", sans-serif;
   font-weight: 400;
   font-style: normal;
-
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 40%;
 }
 
-div a{
-  right: 10;
-  margin-left: 10px;
+ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: yellowgreen;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+ul li:hover::after{
+  width: 100%;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding-left: 0;
+  margin: 0;
+}
+
+.link {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.link1 {
+  right: 40%;
+}
+.link2 {
+  right: 29%;
+}
+.link3 {
+  right: 20%;
+}
+.link4 {
+  right: 10%;
+}
+.link5 {
+  right: 0%;
+}
+
+.content{
+  
 }
